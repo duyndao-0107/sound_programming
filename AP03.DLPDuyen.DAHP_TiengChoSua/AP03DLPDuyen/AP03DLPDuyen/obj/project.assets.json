@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "OpenAL.Soft/1.19.1": {
+        "type": "package",
+        "build": {
+          "build/openal.soft.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenAL32.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/OpenAL32.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/OpenAL32.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/OpenAL32.lib": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenAL.Soft/1.19.1": {
+      "sha512": "FmaNZ6fcxwqEnybXuex/87On+rBLQy7v1VVQzEdzVHzWgRYWBj2fBVjcttiG9DlRXxl4/KS2Eof6h15hxhViEQ==",
+      "type": "package",
+      "path": "openal.soft/1.19.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/openal.soft.props",
+        "openal.soft.1.19.1.nupkg.sha512",
+        "openal.soft.nuspec",
+        "runtimes/win-x64/native/OpenAL32.dll",
+        "runtimes/win-x64/native/OpenAL32.lib",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/OpenAL32.dll",
+        "runtimes/win-x86/native/OpenAL32.lib",
+        "runtimes/win-x86/native/soft_oal.dll",
+        "sources/AL/al.h",
+        "sources/AL/alc.h",
+        "sources/AL/alext.h",
+        "sources/AL/efx-creative.h",
+        "sources/AL/efx-presets.h",
+        "sources/AL/efx.h"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "OpenAL.Soft >= 1.19.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\duyendao\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\duyendao\\Documents\\Nam3\\HKII\\LAPTRINHAMTHANH\\AP03.DLPDuyen.DAHP_TiengChoSua\\AP03DLPDuyen\\AP03DLPDuyen\\AP03DLPDuyen.csproj",
+      "projectName": "AP03DLPDuyen",
+      "projectPath": "C:\\Users\\duyendao\\Documents\\Nam3\\HKII\\LAPTRINHAMTHANH\\AP03.DLPDuyen.DAHP_TiengChoSua\\AP03DLPDuyen\\AP03DLPDuyen\\AP03DLPDuyen.csproj",
+      "packagesPath": "C:\\Users\\duyendao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\duyendao\\Documents\\Nam3\\HKII\\LAPTRINHAMTHANH\\AP03.DLPDuyen.DAHP_TiengChoSua\\AP03DLPDuyen\\AP03DLPDuyen\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\duyendao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "OpenAL.Soft": {
+            "target": "Package",
+            "version": "[1.19.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
